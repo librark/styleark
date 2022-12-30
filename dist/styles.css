@@ -1560,7 +1560,7 @@ html, body {
 
 
 .gap {
-  gap(--gap);
+  gap: var(--gap);
 }
 
 .duplet {

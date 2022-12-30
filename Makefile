@@ -17,6 +17,7 @@ push: ## Push git repository with its tags
 build:
 	mkdir -p dist/
 	node ./lib/index.js > ./dist/styles.css
+	npx clean-css-cli -o ./dist/styles.min.css ./dist/styles.css
 
 gitmessage: ## Add .gitmessage file as git commit template
 	touch .gitmessage
