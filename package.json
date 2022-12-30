@@ -1,0 +1,28 @@
+{
+  "name": "@knowark/styleark",
+  "version": "0.0.0",
+  "description": "Atomic CSS Classes",
+  "main": "./lib/index.js",
+  "type": "module",
+  "scripts": {
+    "options": "NODE_OPTIONS='--experimental-vm-modules --no-warnings'",
+    "test": "npm run options -- npx jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knowark/styleark.git"
+  },
+  "keywords": [
+    "css",
+    "styles"
+  ],
+  "author": "Knowark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/knowark/styleark/issues"
+  },
+  "homepage": "https://github.com/knowark/styleark#readme",
+  "devDependencies": {
+    "jest": "^29.1.1"
+  }
+}
