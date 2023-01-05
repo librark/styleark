@@ -1361,12 +1361,6 @@ html, body {
   grid-auto-flow: row;
 }
 
-.grid-fit {
-  display: grid;
-  justify-content: space-between;
-  grid-template-columns: repeat(auto-fit, minmax(var(--column), 1fr));
-}
-
 
 .row-span-none {
   grid-row: span var(--span-none);
@@ -1432,84 +1426,84 @@ html, body {
 
 
 
-.justify-content-between {
-  justify-content: between;
+.justify-content-space-between {
+  justify-content: space-between;
 }
 
-.align-content-between {
-  align-content: between;
-}
-
-
-.justify-items-between {
-  justify-items: between;
-}
-
-.align-items-between {
-  align-items: between;
+.align-content-space-between {
+  align-content: space-between;
 }
 
 
-.justify-self-between {
-  justify-self: between;
+.justify-items-space-between {
+  justify-items: space-between;
 }
 
-.align-self-between {
-  align-self: between;
-}
-
-
-.justify-content-around {
-  justify-content: around;
-}
-
-.align-content-around {
-  align-content: around;
+.align-items-space-between {
+  align-items: space-between;
 }
 
 
-.justify-items-around {
-  justify-items: around;
+.justify-self-space-between {
+  justify-self: space-between;
 }
 
-.align-items-around {
-  align-items: around;
-}
-
-
-.justify-self-around {
-  justify-self: around;
-}
-
-.align-self-around {
-  align-self: around;
+.align-self-space-between {
+  align-self: space-between;
 }
 
 
-.justify-content-evenly {
-  justify-content: evenly;
+.justify-content-space-around {
+  justify-content: space-around;
 }
 
-.align-content-evenly {
-  align-content: evenly;
-}
-
-
-.justify-items-evenly {
-  justify-items: evenly;
-}
-
-.align-items-evenly {
-  align-items: evenly;
+.align-content-space-around {
+  align-content: space-around;
 }
 
 
-.justify-self-evenly {
-  justify-self: evenly;
+.justify-items-space-around {
+  justify-items: space-around;
 }
 
-.align-self-evenly {
-  align-self: evenly;
+.align-items-space-around {
+  align-items: space-around;
+}
+
+
+.justify-self-space-around {
+  justify-self: space-around;
+}
+
+.align-self-space-around {
+  align-self: space-around;
+}
+
+
+.justify-content-space-evenly {
+  justify-content: space-evenly;
+}
+
+.align-content-space-evenly {
+  align-content: space-evenly;
+}
+
+
+.justify-items-space-evenly {
+  justify-items: space-evenly;
+}
+
+.align-items-space-evenly {
+  align-items: space-evenly;
+}
+
+
+.justify-self-space-evenly {
+  justify-self: space-evenly;
+}
+
+.align-self-space-evenly {
+  align-self: space-evenly;
 }
 
 
@@ -1598,16 +1592,24 @@ html, body {
   gap: var(--gap);
 }
 
+.fit {
+  grid-template-columns: repeat(auto-fit, minmax(
+    var(--column), 1fr));
+}
+
 .duplet {
-  grid-template-columns: repeat(2, minmax(var(--column), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(
+    min(100%, max(var(--column), 100%/2)), 1fr));
 }
 
 .triplet {
-  grid-template-columns: repeat(3, minmax(var(--column), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(
+    min(100%, max(var(--column), 100%/3)), 1fr));
 }
 
 .quadruplet {
-  grid-template-columns: repeat(4, minmax(var(--column), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(
+    min(100%, max(var(--column), 100%/4)), 1fr));
 }
 
 .flex {
