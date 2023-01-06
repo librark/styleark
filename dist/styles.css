@@ -90,6 +90,8 @@ html {
 
   --transition-property: all;
   --transition-duration: 1s;
+  --transition-function: ease;
+  --transition-delay: 0s;
 
   /* TRANSFORMS */
 
@@ -161,10 +163,6 @@ html {
   --sepia: var(--sepia-normal);
   --sepia-low: 50%;
   --sepia-high: 100%;
-
-  /* BLENDS */
-
-  --blending: screen;
 
   /* MISCELANEOUS */
 
@@ -1983,31 +1981,38 @@ html, body {
 
 .transition-tiny {
   transition: var(--transition-property)
-    calc(var(--transition-duration) * var(--factor-tiny));
+    calc(var(--transition-duration) * var(--factor-tiny))
+    var(--transition-function) var(--transition-delay);
 }
 .transition-small {
   transition: var(--transition-property)
-    calc(var(--transition-duration) * var(--factor-small));
+    calc(var(--transition-duration) * var(--factor-small))
+    var(--transition-function) var(--transition-delay);
 }
 .transition-normal {
   transition: var(--transition-property)
-    calc(var(--transition-duration) * var(--factor-normal));
+    calc(var(--transition-duration) * var(--factor-normal))
+    var(--transition-function) var(--transition-delay);
 }
 .transition-large {
   transition: var(--transition-property)
-    calc(var(--transition-duration) * var(--factor-large));
+    calc(var(--transition-duration) * var(--factor-large))
+    var(--transition-function) var(--transition-delay);
 }
 .transition-huge {
   transition: var(--transition-property)
-    calc(var(--transition-duration) * var(--factor-huge));
+    calc(var(--transition-duration) * var(--factor-huge))
+    var(--transition-function) var(--transition-delay);
 }
 .transition-giant {
   transition: var(--transition-property)
-    calc(var(--transition-duration) * var(--factor-giant));
+    calc(var(--transition-duration) * var(--factor-giant))
+    var(--transition-function) var(--transition-delay);
 }
 .transition-none {
   transition: var(--transition-property)
-    calc(var(--transition-duration) * var(--factor-none));
+    calc(var(--transition-duration) * var(--factor-none))
+    var(--transition-function) var(--transition-delay);
 }
 
 /* TRANSFORMS */
