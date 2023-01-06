@@ -889,6 +889,14 @@ html, body {
 .child-block-invalid:invalid > *:last-child {
   display: block;
 }
+.child-none > *:last-child,
+.child-none-hover:hover > *:last-child,
+.child-none-focus-within:focus-within > *:last-child,
+.child-none-active:active > *:last-child,
+.child-none-valid:valid > *:last-child,
+.child-none-invalid:invalid > *:last-child {
+  display: none;
+}
 
 .position-static {
   position: static;
