@@ -105,12 +105,12 @@ html {
 
   --scale-factor: 1;
   --scale-none: 100%;
-  --scale-tiny: 25%;
-  --scale-small: 50%;
-  --scale-normal: 110%;
-  --scale-large: 125%;
-  --scale-huge: 150%;
-  --scale-giant: 200%;
+  --scale-tiny: 85%;
+  --scale-small: 95%;
+  --scale-normal: 105%;
+  --scale-large: 115%;
+  --scale-huge: 125%;
+  --scale-giant: 150%;
 
   /* FILTERS */
 
