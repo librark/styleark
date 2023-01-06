@@ -1690,75 +1690,165 @@ html, body {
   border-radius: calc(var(--roundness) * var(--factor-none));
 }
 
-.border-primary {
+.border-primary,
+.border-primary-hover:hover,
+.border-primary-focus-within:focus-within,
+.border-primary-active:active,
+.border-primary-valid:valid,
+.border-primary-invalid:invalid {
   --border-color: var(--primary);
   border-color: rgb(var(--border-color));
 }
-.outline-primary {
+.outline-primary,
+.outline-primary-hover:hover,
+.outline-primary-focus-within:focus-within,
+.outline-primary-active:active,
+.outline-primary-valid:valid,
+.outline-primary-invalid:invalid {
   --outline-color: var(--primary);
   outline-color: rgb(var(--outline-color));
 }
-.border-secondary {
+.border-secondary,
+.border-secondary-hover:hover,
+.border-secondary-focus-within:focus-within,
+.border-secondary-active:active,
+.border-secondary-valid:valid,
+.border-secondary-invalid:invalid {
   --border-color: var(--secondary);
   border-color: rgb(var(--border-color));
 }
-.outline-secondary {
+.outline-secondary,
+.outline-secondary-hover:hover,
+.outline-secondary-focus-within:focus-within,
+.outline-secondary-active:active,
+.outline-secondary-valid:valid,
+.outline-secondary-invalid:invalid {
   --outline-color: var(--secondary);
   outline-color: rgb(var(--outline-color));
 }
-.border-info {
+.border-info,
+.border-info-hover:hover,
+.border-info-focus-within:focus-within,
+.border-info-active:active,
+.border-info-valid:valid,
+.border-info-invalid:invalid {
   --border-color: var(--info);
   border-color: rgb(var(--border-color));
 }
-.outline-info {
+.outline-info,
+.outline-info-hover:hover,
+.outline-info-focus-within:focus-within,
+.outline-info-active:active,
+.outline-info-valid:valid,
+.outline-info-invalid:invalid {
   --outline-color: var(--info);
   outline-color: rgb(var(--outline-color));
 }
-.border-success {
+.border-success,
+.border-success-hover:hover,
+.border-success-focus-within:focus-within,
+.border-success-active:active,
+.border-success-valid:valid,
+.border-success-invalid:invalid {
   --border-color: var(--success);
   border-color: rgb(var(--border-color));
 }
-.outline-success {
+.outline-success,
+.outline-success-hover:hover,
+.outline-success-focus-within:focus-within,
+.outline-success-active:active,
+.outline-success-valid:valid,
+.outline-success-invalid:invalid {
   --outline-color: var(--success);
   outline-color: rgb(var(--outline-color));
 }
-.border-danger {
+.border-danger,
+.border-danger-hover:hover,
+.border-danger-focus-within:focus-within,
+.border-danger-active:active,
+.border-danger-valid:valid,
+.border-danger-invalid:invalid {
   --border-color: var(--danger);
   border-color: rgb(var(--border-color));
 }
-.outline-danger {
+.outline-danger,
+.outline-danger-hover:hover,
+.outline-danger-focus-within:focus-within,
+.outline-danger-active:active,
+.outline-danger-valid:valid,
+.outline-danger-invalid:invalid {
   --outline-color: var(--danger);
   outline-color: rgb(var(--outline-color));
 }
-.border-warning {
+.border-warning,
+.border-warning-hover:hover,
+.border-warning-focus-within:focus-within,
+.border-warning-active:active,
+.border-warning-valid:valid,
+.border-warning-invalid:invalid {
   --border-color: var(--warning);
   border-color: rgb(var(--border-color));
 }
-.outline-warning {
+.outline-warning,
+.outline-warning-hover:hover,
+.outline-warning-focus-within:focus-within,
+.outline-warning-active:active,
+.outline-warning-valid:valid,
+.outline-warning-invalid:invalid {
   --outline-color: var(--warning);
   outline-color: rgb(var(--outline-color));
 }
-.border-dark {
+.border-dark,
+.border-dark-hover:hover,
+.border-dark-focus-within:focus-within,
+.border-dark-active:active,
+.border-dark-valid:valid,
+.border-dark-invalid:invalid {
   --border-color: var(--dark);
   border-color: rgb(var(--border-color));
 }
-.outline-dark {
+.outline-dark,
+.outline-dark-hover:hover,
+.outline-dark-focus-within:focus-within,
+.outline-dark-active:active,
+.outline-dark-valid:valid,
+.outline-dark-invalid:invalid {
   --outline-color: var(--dark);
   outline-color: rgb(var(--outline-color));
 }
-.border-muted {
+.border-muted,
+.border-muted-hover:hover,
+.border-muted-focus-within:focus-within,
+.border-muted-active:active,
+.border-muted-valid:valid,
+.border-muted-invalid:invalid {
   --border-color: var(--muted);
   border-color: rgb(var(--border-color));
 }
-.outline-muted {
+.outline-muted,
+.outline-muted-hover:hover,
+.outline-muted-focus-within:focus-within,
+.outline-muted-active:active,
+.outline-muted-valid:valid,
+.outline-muted-invalid:invalid {
   --outline-color: var(--muted);
   outline-color: rgb(var(--outline-color));
 }
-.border-light {
+.border-light,
+.border-light-hover:hover,
+.border-light-focus-within:focus-within,
+.border-light-active:active,
+.border-light-valid:valid,
+.border-light-invalid:invalid {
   --border-color: var(--light);
   border-color: rgb(var(--border-color));
 }
-.outline-light {
+.outline-light,
+.outline-light-hover:hover,
+.outline-light-focus-within:focus-within,
+.outline-light-active:active,
+.outline-light-valid:valid,
+.outline-light-invalid:invalid {
   --outline-color: var(--light);
   outline-color: rgb(var(--outline-color));
 }
