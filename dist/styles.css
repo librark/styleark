@@ -889,12 +889,28 @@ html, body {
 .child-block-invalid:invalid > *:last-child {
   display: block;
 }
+.adjacent-block + *,
+.adjacent-block-hover:hover + *,
+.adjacent-block-focus-within:focus-within + *,
+.adjacent-block-active:active + *,
+.adjacent-block-valid:valid + *,
+.adjacent-block-invalid:invalid + * {
+  display: block;
+}
 .child-none > *:last-child,
 .child-none-hover:hover > *:last-child,
 .child-none-focus-within:focus-within > *:last-child,
 .child-none-active:active > *:last-child,
 .child-none-valid:valid > *:last-child,
 .child-none-invalid:invalid > *:last-child {
+  display: none;
+}
+.adjacent-none + *,
+.adjacent-none-hover:hover + *,
+.adjacent-none-focus-within:focus-within + *,
+.adjacent-none-active:active + *,
+.adjacent-none-valid:valid + *,
+.adjacent-none-invalid:invalid + * {
   display: none;
 }
 
