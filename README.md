@@ -1,6 +1,6 @@
 # styleark
 
-Atomic CSS Classes
+Atomic CSS Utilities
 
 ## Usage
 
