@@ -19,6 +19,6 @@ Include the distribution styles file in the head tag of your html:
 
 ## Distribution Files
 
-- https://unpkg.com/@knowark/styleark@0.1.2/dist/styles.min.css
+- https://unpkg.com/@knowark/styleark@0.4.0/dist/styles.min.css
 
-- https://unpkg.com/@knowark/styleark@0.1.2/dist/styles.css
+- https://unpkg.com/@knowark/styleark@0.4.0/dist/styles.css
