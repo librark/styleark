@@ -222,7 +222,6 @@ html {
   display: var(--adjacent-display-invalid);
 }
 
-
 [style*='--child-display:'] > *:last-child {
   display: var(--child-display);
 }
