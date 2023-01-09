@@ -1,6 +1,6 @@
 {
   "name": "@knowark/styleark",
-  "version": "0.3.3",
+  "version": "0.4.0",
   "description": "Atomic CSS Classes",
   "main": "./lib/index.js",
   "type": "module",
