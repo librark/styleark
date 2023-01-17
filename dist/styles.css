@@ -1,6 +1,5 @@
 * {
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
@@ -64,9 +63,6 @@ html {
 
 [style*='--all:'] {
   all: var(--all);
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 /* COLORS */
