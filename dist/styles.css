@@ -626,3 +626,11 @@ html {
 *:checked ~ [style*='--transform-antecessor-checked:'] {
   transform: var(--transform-antecessor-checked);
 }
+
+/* MEDIA QUERIES */
+
+@media (min-width: 960px) {             
+  [style*='--display-large:'] {
+    display: var(--display-large);
+  }
+}
