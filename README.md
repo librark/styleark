@@ -11,7 +11,7 @@ Include the distribution styles file in the head tag of your html:
  <head>
    <title>Example</title>
    <link rel="stylesheet"
-     href="https://unpkg.com/@knowark/styleark/dist/styles.min.css">
+     href="https://unpkg.com/@knowark/styleark@<version>/dist/styles.min.css">
  </head>
  <body></body>
 </html>
@@ -19,6 +19,6 @@ Include the distribution styles file in the head tag of your html:
 
 ## Distribution Files
 
-- https://unpkg.com/@knowark/styleark/dist/styles.min.css
+- https://unpkg.com/@knowark/styleark@<version>/dist/styles.min.css
 
-- https://unpkg.com/@knowark/styleark/dist/styles.css
+- https://unpkg.com/@knowark/styleark@<version>/dist/styles.css
