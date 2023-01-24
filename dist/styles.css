@@ -113,27 +113,6 @@ html {
 [style*='--background-checked:']:checked {
   background: var(--background-checked);
 }
-[style*='--opacity:'] {
-  opacity: var(--opacity);
-}
-[style*='--opacity-hover:']:hover {
-  opacity: var(--opacity-hover);
-}
-[style*='--opacity-active:']:active {
-  opacity: var(--opacity-active);
-}
-[style*='--opacity-focus-within:']:focus-within {
-  opacity: var(--opacity-focus-within);
-}
-[style*='--opacity-valid:']:valid {
-  opacity: var(--opacity-valid);
-}
-[style*='--opacity-invalid:']:invalid {
-  opacity: var(--opacity-invalid);
-}
-[style*='--opacity-checked:']:checked {
-  opacity: var(--opacity-checked);
-}
 
 /* TYPOGRAPHY */
 
