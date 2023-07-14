@@ -30,7 +30,8 @@ html {
 
   /* TYPOGRAPHY */
 
-  --font-size-step: 0.25rem;
+  --font-size-base: 0.5rem;
+  --font-size-step: 0.125rem;
   --line-height-step: 0.5;
   --word-spacing-step: 0.1rem;
   --letter-spacing-step: 0.05rem;
@@ -118,7 +119,8 @@ html {
 /* TYPOGRAPHY */
 
 [style*='--font-size:'] {
-  font-size: calc(var(--font-size-step) * var(--font-size));
+  font-size: calc(var(--font-size-base) + (
+    var(--font-size-step) * var(--font-size)));
 }
 [style*='--line-height:'] {
   line-height: calc(var(--line-height-step) * var(--line-height));
