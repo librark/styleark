@@ -1,3 +1,14 @@
+<p align="center">
+  <a href="https://codecov.io/gh/librark/styleark">
+    <img src="https://codecov.io/gh/librark/styleark/graph/badge.svg?token=R4ZZUxqHLX"/>
+  </a>
+</p>
+<p align="center">
+  <a href="https://codecov.io/gh/librark/styleark">
+    <img src="https://codecov.io/gh/librark/styleark/graphs/sunburst.svg?token=R4ZZUxqHLX"/>
+  </a>
+</p>
+
 # styleark
 
 Atomic CSS Utilities
